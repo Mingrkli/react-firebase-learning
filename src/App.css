@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.App > div {
+    display: flex;
+    justify-content: center;
+
+    padding-top: 1rem;
+}
+
+/* movieList
+======================================================================================== */
+.movieList {
+    flex-direction: column;
+}
+
+.movieList > div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* imageList
+======================================================================================== */
+.imageList {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+    overflow: hidden;
+}
+
+.imageList img {
+    width: 500px;
+    height: 600px;
+    object-fit: cover;
+}
